@@ -38,4 +38,12 @@ public class Humain {
 		parler("Hmmm un bon verre de "+ b + " GLOUPS !");
 	}
 	
+	public void gagnerA(int S) {
+		this.argent += S;
+	}
+	
+	public void perdreA(int S) {
+		this.argent -= S;
+	}
+	
 }
