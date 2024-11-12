@@ -13,6 +13,10 @@ public class Yakuza extends Humain{
 		this.réputation = 0;
 	}
 	
+	public int getRéputation() {
+		return this.réputation;
+	}
+	
 	public void extorquer(Commerçant c) {
 		int v = c.seFaireExtorquer();
 		gagnerA(v);
